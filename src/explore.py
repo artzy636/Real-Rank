@@ -17,7 +17,12 @@ df.columns = [
     "similar_questions"
 ]
 
-print(df.head())
+print("\nDifficulty Distribution:")
+print(df["difficulty"].value_counts())
 
-print("\nColumns:")
-print(df.columns.tolist())
+print("\nAcceptance Rate Statistics:")
+print(df["acceptance_rate"].describe())
+
+print("\nSample Topics:")
+for topic in df["topics"].head(10):
+    print(topic)
