@@ -1,26 +1,48 @@
-# Real Rank
+# 🚀 Real Rank
 
-## Problem
+Real Rank estimates the actual difficulty of LeetCode problems.
 
-LeetCode difficulty ratings are often inconsistent.
+It analyzes 3559+ LeetCode problems using:
+- Difficulty labels
+- Topic complexity
+- Acceptance rates
 
-Many Medium problems feel harder than Hard problems and vice versa.
+to generate a custom Real Rank Score.
 
-## Goal
+---
 
-Build a system that estimates the true difficulty of coding problems using metadata such as acceptance rate, topic complexity, constraints, and algorithmic patterns.
+## Features
 
-## Planned Features
+- Search LeetCode problems
+- Custom difficulty scoring
+- Difficulty mismatch detection
+- Score breakdown analysis
+- Distribution visualization
 
-- Difficulty score (0-100)
-- Difficulty explanation
-- Difficulty ranking
-- ML-based difficulty prediction
-- Browser extension integration
+---
 
 ## Tech Stack
 
 - Python
 - Pandas
 - Streamlit
-- Scikit-learn
+- Matplotlib
+
+---
+
+## Example
+
+LeetCode Difficulty: Medium
+
+Real Rank Difficulty: Hard
+
+Problem:
+Minimum Number of Valid Strings to Form Target I
+
+---
+
+## Future Improvements
+
+- Machine Learning based scoring
+- Chrome Extension
+- User feedback system
